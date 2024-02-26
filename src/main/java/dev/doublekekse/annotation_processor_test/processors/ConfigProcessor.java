@@ -13,7 +13,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Set;
 
-@SupportedAnnotationTypes("MyAnnotation")
+@SupportedAnnotationTypes("Config")
 @SupportedSourceVersion(SourceVersion.RELEASE_8)
 public class ConfigProcessor extends AbstractProcessor {
 
