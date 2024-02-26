@@ -14,7 +14,6 @@ import java.io.PrintWriter;
 import java.util.Set;
 
 @SupportedAnnotationTypes("Config")
-@SupportedSourceVersion(SourceVersion.RELEASE_8)
 public class ConfigProcessor extends AbstractProcessor {
 
     @Override
