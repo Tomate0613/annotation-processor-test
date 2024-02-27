@@ -14,7 +14,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Set;
 
-@SupportedAnnotationTypes("dev.doublekekse.annotation_processor_test.Config")
+@SupportedAnnotationTypes("dev.doublekekse.annotation_processor_test.annotations.Config")
 @SupportedSourceVersion(SourceVersion.RELEASE_17)
 public class ConfigProcessor extends AbstractProcessor {
     public static final String TEMPLATE = """
