@@ -20,7 +20,7 @@ public class ConfigProcessor extends AbstractProcessor {
     public static final String TEMPLATE = """
         package %s;
         
-        class %s {
+        public class %s {
             public String toString() {
                 return "O: %s, N: %s";
             }
