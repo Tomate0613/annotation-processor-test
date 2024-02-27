@@ -21,8 +21,8 @@ public class ConfigProcessor extends AbstractProcessor {
         package %s;
         
         class %s {
-            toString() {
-                return "O: %s, N: %s"
+            public String toString() {
+                return "O: %s, N: %s";
             }
         }
         """;
